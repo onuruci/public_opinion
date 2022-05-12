@@ -4,13 +4,15 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div>
       <BrowserRouter>
+        <Navbar />
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="/" element={<div>A</div>} />
           <Route path="all" element={<div>A</div>} />
           <Route path="admin" element={<div>A</div>} />
         </Routes>
