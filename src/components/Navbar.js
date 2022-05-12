@@ -5,7 +5,7 @@ import '../styles/styles.css';
 const Navbar = () => {
     return(
         <div className="w-100 bg-blue">
-            <div className="mx-w-1050 pd-10 m-rl-auto flex-row">
+            <div className="mx-w-1100 pd-10 m-rl-auto flex-row">
                 <div className="nav-head">
                     <Link to="/" className="nav-link">
                         Public Opinion

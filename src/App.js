@@ -1,4 +1,3 @@
-
 import {
   BrowserRouter,
   Routes,
@@ -7,6 +6,8 @@ import {
 
 import Main from './mainPage/rootPage'
 import Navbar from './components/Navbar';
+import AdminPage from "./components/AdminPage";
+import AdminAdd from "./components/AdminAdd";
 import './styles/styles.css';
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Main></Main>} />
           <Route path="all" element={<div>A</div>} />
-          <Route path="admin" element={<div>A</div>} />
+          <Route path="admin" element={<AdminPage/>} />
+          <Route path="admin/add" element={<AdminAdd/>} />
         </Routes>
         
       </BrowserRouter>
