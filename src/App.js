@@ -3,8 +3,9 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Footer from "./components/Footer";
 
-import Main from './mainPage/rootPage'
+import Main from './components/mainPage/rootPage'
 import Navbar from './components/Navbar';
 import AdminPage from "./components/AdminPage";
 import AdminAdd from "./components/AdminAdd";
@@ -21,6 +22,7 @@ function App() {
           <Route path="admin" element={<AdminPage/>} />
           <Route path="admin/add" element={<AdminAdd/>} />
         </Routes>
+        <Footer/>
         
       </BrowserRouter>
     </div>
