@@ -1,0 +1,43 @@
+.main-content{
+
+    height: 50rem;
+    background-color: #7FB5FF;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.option{
+    color: black;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    width: 7rem;
+    height: 3rem;
+    font-weight: bold;
+}
+.option:hover{
+
+    background-color: rgb(233, 227, 227);
+    
+}
+.option::after{
+    background-color: rgb(165, 165, 73);
+}
+
+.question{
+
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
