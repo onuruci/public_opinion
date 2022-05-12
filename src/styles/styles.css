@@ -16,12 +16,20 @@
     width: 50%;
 }
 
+.mx-w-1100 {
+    max-width: 1100px;
+}
+
 .mx-w-1050 {
     max-width: 1050px;
 }
 
 .pd-10 {
     padding: 10px;
+}
+
+.pd-30 {
+    padding: 30px;
 }
 
 .m-rl-auto {
@@ -33,14 +41,31 @@
     margin-left: auto;
 }
 
+.m-t-10 {
+    margin-top: 10rem;
+}
+
+.m-t-5 {
+    margin-top: 5rem;
+}
+
 .flex-row {
     display: flex;
     flex-direction: row;
 }
 
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
 .bg-blue {
     background-color: rgb(21, 67, 119);
     cursor: pointer;
+}
+
+.bg-lb{
+    background-color: rgb(66, 113, 167);
 }
 
 .nav-head {
@@ -50,7 +75,7 @@
 }
 
 .pd-t-30{
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 .nav-link {
@@ -60,4 +85,9 @@
 
 .nav-link-s:hover {
     color: rgb(211, 137, 41);
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
 }
