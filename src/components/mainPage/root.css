@@ -1,0 +1,71 @@
+.main-content{
+
+    height: 100%;
+    background-color: #7FB5FF;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.option{
+    color: rgb(66, 66, 8);
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    width: 7rem;
+    height: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.option.selected{
+    background-color: rgb(226, 226, 21);
+}
+.option:hover{
+
+    background-color: rgb(233, 227, 227);
+    
+}
+.option.selected:hover{
+    background-color: rgb(226, 226, 21);
+}
+.question-text{
+
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.question-submit{
+    color: white;
+    background-color: rgb(66, 66, 8);
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.question-submit:hover{
+    background-color: rgb(134, 134, 11);
+}
+.question-submit:active{
+   background-color: rgb(226, 226, 21);
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}

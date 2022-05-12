@@ -4,8 +4,9 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Footer from "./components/Footer";
 
-import Main from './mainPage/rootPage'
+import Main from './components/mainPage/rootPage'
 import Navbar from './components/Navbar';
 import './styles/styles.css';
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="all" element={<div>A</div>} />
           <Route path="admin" element={<div>A</div>} />
         </Routes>
+        <Footer/>
         
       </BrowserRouter>
     </div>
