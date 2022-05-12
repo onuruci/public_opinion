@@ -5,10 +5,11 @@ import {
   Route,
 } from "react-router-dom";
 import Navbar from './components/Navbar';
+import './styles/styles.css';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <BrowserRouter>
         <Navbar />
         <Routes>
